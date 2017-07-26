@@ -33,6 +33,11 @@ class ObClient
 		$login2_cls->detach($sql_cls);
 
 		$login2_cls->notify();
+
+		// 类似 不同的实例化 绑定不同的components
+		// 每个component 实现不同的操作
+
+		
 	}
 	
 
